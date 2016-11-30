@@ -837,7 +837,7 @@ class SpreadsheetReader {
 	function _format_value($format,$num,$f) {
 		// 49==TEXT format
 		// http://code.google.com/p/php-excel-reader/issues/detail?id=7
-		if ( (!$f && $format=="%s") || ($f==49) || ($format=="GENERAL") ) { 
+		if ( (!$f && $format=="%s") || ($f==49) || (strtoupper($format)=="GENERAL") ) {
 			return array('string'=>$num, 'formatColor'=>null); 
 		}
 
