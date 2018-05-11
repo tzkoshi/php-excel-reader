@@ -4,7 +4,7 @@
     "keywords": ["PHP","Excel","Spreadsheet", "Reader"],
     "homepage": "http://code.google.com/p/php-excel-reader/",
     "type": "library",
-    "license": "PHP license version 3.0",
+    "license": "GPL-2.0+",
     "authors": [
         {
             "name": "Vadim Tkachenko"
